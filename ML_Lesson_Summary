@@ -42,7 +42,29 @@ After selecting the best model, the validation and training datasets can be comb
 ML projects requires iteration, after a year or so, we can iterate the model to improve on the model.
 
 6. Setting Up the Environment
-Install necessary tools like Python, Numpy, Pandas, Matplotlib, Scikit-learn. Anaconda is the easiest option. Eventually create an AWS account for cloud resources.
+I created a repository in Github. chose code, then code space. Codespace will create vscode within my browser. But it can be opened on local machine which is what is recommended.
+Ctrl + ~ to open terminal
+I opened the readme file and modied it
+ctrl +s to save content of readme file
+On the terminal , type ls , to show files
+type git status: This will show if the content has been modified. In this case content was modified
+Type git commit -am -m 'README change'
+Type git commit -am 'README change'
+Type git push : Go to github to view the file.
+cat README.md is used to display the content of the README file on the terminal
+
+Install necessary tools like Python, Numpy, Pandas, Matplotlib, Scikit-learn. 
+Anaconda is the easiest option. Eventually create an AWS account for cloud resources.
+I ceated the virtual environment for it. 
+On the terminal type jupyter notebook.
+port number 8888. (127.0.0.1.8888) . copt the token and paste on the browser.
+
+To send the homwork to my github
+git status
+git add 01-intro/
+git commit -m ' Homework'
+git push
+
 
 7. 🔢 Introduction to Numpy
 Numpy is crucial for manipulating numerical data, providing efficient operations on arrays and matrices.
